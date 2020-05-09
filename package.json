@@ -1,0 +1,24 @@
+{
+  "name": "js-react-edu",
+  "version": "1.0.0",
+  "description": "Освежение знаний React на курсу \"Полный курс по JavaScript + React - с нуля до результата\"",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanadadas/js-react-edu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanadadas/js-react-edu/issues"
+  },
+  "homepage": "https://github.com/dhanadadas/js-react-edu#readme"
+}
