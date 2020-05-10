@@ -23,5 +23,15 @@ const makeBusiness = ({cash, emp, owner = 'Sam', director = 'Victor'}) => {
      And we have a sponsors:
       ${sumSponsors}
     Note. Be careful with ${sponsors.eu[0]}. It's a huge risk.`);
-}
+};
 makeBusiness({cash: money, emp: employersNames});
+
+fetch('https://jsonplaceholder.typicode.com/posts',{
+    method: "POST",
+    body: JSON.stringify({name:"Alex"}),
+    headers: {
+        'Content-type':'application/json'
+    }
+})
+    .then(response => response.json())
+    .then(json => console.log(json));
